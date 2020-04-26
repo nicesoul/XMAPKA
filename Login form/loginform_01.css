@@ -1,0 +1,100 @@
+/* html{
+     background-color: rgba(0, 255, 0, 0.05) 
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+*::selection{
+    background-color: burlywood;
+}
+/* just for Tuning <Body> has a left padding
+please erase this property after finishing
+also, set .container justify-content to center
+set #smile text-align to center as well*/
+body {
+    padding-left: 50px;
+}
+/* additional class for this particular form is ${element_name}-gray-green
+this would allow you to style it separately from other containers */
+.container {
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    flex-direction: row;
+    
+}
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    min-width: 200px;
+    padding: 10px;
+    background-color: rgba(0, 255, 0, 0.05)
+}
+.form label {
+    color: gray;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+.form label:hover {
+    color: green;
+}
+ input:hover::-webkit-input-placeholder{/*  this is still not standart*/
+   color: green;
+} 
+.registerbtn {
+    /* font-family: monospace; */
+    background-color: cadetblue;
+    color: yellow;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: large;
+    transition: background-color 0.7s;
+}
+.registerbtn:hover{
+    background-color: green;
+    color: yellow;
+}
+input[type=text],
+input[type=password] {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: black;
+}
+input:focus{
+    border-color: greenyellow;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    opacity: 0.5;
+    position: absolute;  
+}
+#smile{
+    margin-top: 10px;
+    color: lightgray;
+    font-size: 5vmin;
+    /* text-align: center; */
+    animation: smile_fade_out 1.2s ease-in;
+    transition: color 1s;
+    /* animation: example 2s ease 0s 1 alternate; */
+    /* animation: name    duration timing-function delay iteration-count direction fill-mode; */
+}
+#smile:hover {
+    color:teal;
+}
+@keyframes smile_fade_out {
+    from {color: teal;}
+    to {color: lightgray;}
+  }
+

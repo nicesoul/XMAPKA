@@ -1,0 +1,19 @@
+{
+    "window.zoomLevel": 0,
+    "editor.tokenColorCustomizations": {
+        "comments": "#808080",
+        "strings": "#90bb90",
+        "background": "#ffaaff"
+    },
+    "CleanCSS.options": {
+        "format": "keep-breaks",
+        "compatibility": "ie8"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "git.autofetch": true
+}
