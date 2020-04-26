@@ -1,2 +1,2 @@
-# mine-component-library
- component library and settings
+# XMAPKA
+ mine component library and settings
