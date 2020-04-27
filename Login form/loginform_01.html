@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTTP requests testing</title>
-    <link rel="stylesheet" href="loginform_01.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login form</title>
+  <link rel="stylesheet" href="loginform_01.css">
 </head>
+
 <body>
-    <div id="smile">:) Welcome back, wanderer.</div>
-    <br>
-    <div class="container">
-        <!-- <h1>CHOOOPA!</h1> -->
-    <div class="form">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" autocomplete="off" placeholder="Enter Username" name="uname" required>
-    
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-    
-        <button type="submit" class="registerbtn">Login</button>
-        <div class="checkbox-container">
-        <input type="checkbox" checked="checked" name="remember">
+  <div id="smile">:) Welcome back, wanderer.</div>
+  <br>
+  <!-- additional class for this particular form is ${element_name}-gray-green
+      this would allow you to style it separately from other containers -->
+  <div class="container-gray-green">
+    <!-- <h1>CHOOOPA!</h1> -->
+    <div class="form-gray-green">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" autocomplete="off" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="button" class="registerbtn">Login</button>
+      <div class="checkbox-container">
+        <input type="checkbox" checked="checked" name="remember" id="remember">
         <label for="remember">Remember me</label></div>
-        <div class="checkbox-container">
-          <input type="checkbox" id="cb3">
-          <label for="cb3">Checkbox 3</label>
-        </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="cb3">
+        <label for="cb3">Checkbox 3</label>
       </div>
     </div>
-    
-    <script src="loginform_01.js"></script>
+  </div>
+
+  <script src="loginform_01.js"></script>
 </body>
+
 </html>
