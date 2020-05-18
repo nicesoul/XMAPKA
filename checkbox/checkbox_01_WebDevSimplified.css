@@ -51,6 +51,7 @@ https://www.youtube.com/watch?v=YyLzwR-iXtI */
     background-color: #35E07D;
 }
 
+
 .checkbox-container input[type='checkbox']:focus+label::before {
     box-shadow: 0 0 20px black;
 }
@@ -69,6 +70,10 @@ https://www.youtube.com/watch?v=YyLzwR-iXtI */
     align-items: center;
     color: white;
 }
+/* added from nicesoul */
+.checkbox-container input[type='checkbox']:active+label::before{
+    background-color: tomato;
+} 
 
 .checkbox-container input[type='checkbox']:disabled+label::before {
     background-color: #ccc;
