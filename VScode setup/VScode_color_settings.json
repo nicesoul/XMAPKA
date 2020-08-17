@@ -1,5 +1,8 @@
 {
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "editor.tokenColorCustomizations": {
         "comments": "#808080",
         "strings": "#90bb90",
@@ -15,5 +18,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "git.autofetch": true
+    "git.autofetch": true,
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    },
+    "editor.fontSize": 16,
+    "editor.lineHeight": 19,
+    "editor.fontWeight": "200"
 }

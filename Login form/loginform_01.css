@@ -74,10 +74,11 @@ this would allow you to style it separately from other containers */
     background-color: forestgreen;
 }
 /* hide standart checkbox for all inputs in a Document? */
+/* doesn't work in Firefox )))) */
 input[type=checkbox] {
     cursor: pointer;
     position: absolute;
-    width: 0.1px;
+    width: 0.01px;
     margin-left: 1px;
 }
 /* .checkbox-container {
