@@ -1,0 +1,63 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "window.zoomLevel": 0,
+  "editor.tokenColorCustomizations": {
+      "comments": "#808080",
+      "strings": "#90bb90",
+      "background": "#ffaaff"
+  },
+  "CleanCSS.options": {
+      "format": "keep-breaks",
+      "compatibility": "ie8"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "git.autofetch": true,
+  "emmet.includeLanguages": {
+      "javascript": "html"
+  },
+  "editor.fontSize": 12,
+  "editor.lineHeight": 16,
+  "editor.fontWeight": "200",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 12,
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "python.linting.pylintEnabled": false,
+  "python.linting.pylamaEnabled": true,
+  "python.linting.enabled": true,
+  "editor.codeActionsOnSave": {},
+  "angular.experimental-ivy": true,
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.pythonPath": "E:\\INSTALL\\Python-Win\\Python-3.9.7\\python.exe",
+  "jupyter.widgetScriptSources": [
+      "jsdelivr.com",
+      "unpkg.com"
+  ],
+  "editor.semanticTokenColorCustomizations": null,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "terminal.external.windowsExec": "C:\\install\\Git\\bin\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "git bash",
+  "terminal.integrated.profiles.windows": {
+    "git bash": {
+      "path": "C:\\install\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "editor.inlineSuggest.enabled": true
+}
